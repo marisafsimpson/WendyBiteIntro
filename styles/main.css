@@ -1,0 +1,134 @@
+html
+{
+	font-size: 16px;
+}
+
+
+body
+{ 
+	background-color: #333;
+	border: 3px solid #777;
+	color: white;
+    font-family: 'Noto Serif', serif;
+	
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.wrapper
+{
+	margin: 20px;
+}
+
+.wrapper-border-bottom
+{ 
+	border-bottom: 3px solid #777;
+}
+
+.wrapper-border-top
+{
+	border-top:3px solid #777;
+}
+
+.title-main
+{
+	font-size:2.5rem;
+	font-weight:700;
+	font-style: italic;
+    display: block;
+}
+
+.title-standard
+{
+	font-family: Arial;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+.text-center
+{
+	text-align:center;
+}
+
+.menu
+{
+	padding: 20px 0;
+}
+
+.menu-item
+{
+	font-family: Arial;
+	font-weight: 600;
+	color: #093;
+	font-size: 1rem;
+
+	border-right: 1px solid #777;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    display: inline-block;
+    line-height: 1rem;
+}    
+
+.menu-item-no-border,
+.menu-item:last-child
+{
+	border-right: none;
+	padding-right: 0;
+}
+
+.menu-item-active
+{
+	color: white;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.content-img 
+{
+	border: 1px solid white;
+    padding: 5px;
+}
+
+.content-img-right 
+{
+	float: right;    
+}
+
+.list-title
+{
+	font-size: 1rem;
+	font-family: Arial;
+	margin-top: 3rem;
+}
+
+.list-item-heading
+{
+	display: inline-block;
+	font-family: Arial;
+}
+
+.list-item-paragraph
+{
+	margin-bottom: 1rem;
+}
+
+.grey
+{
+	color:#888;
+}
+
+.list-item-bold
+{
+	font-weight: 800;
+}
+
+.list-item-small
+{
+	font-size: .75rem;
+}
+
+.list-item-description
+{
+	margin-bottom: 3rem;
+	max-width: 400px;
+}
